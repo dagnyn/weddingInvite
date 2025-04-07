@@ -32,11 +32,28 @@ p {
     /* max-height: 100px; */
 }
 
+.header {
+    background-color: var(--medium-blue);
+    /* background-color: #133367; */
+    /* height: 60px; */
+    margin-left: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px;
+    padding-left: 3%;
+    padding-right: 3%
+}
+
 .monogram {
     font-size: 32px;
     text-align: center;
     color: var(--gold);
     text-decoration: none;
+    width: 90px;
+    height: 72px;
+    line-height: 72px;
 }
 
 .parent-line {
@@ -107,29 +124,30 @@ hr {
     background-color:var(--gold);
     border: 1px;
     /* border-radius: 4px; */
-    border-color: var(--gold);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid var(--gold);
+}
+
+.rsvpButton:hover {
+    background-color: var(--cream);
 }
 
 .rsvpLink {
     color: var(--dark-blue);
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
 }
 
-.header {
-    background-color: var(--medium-blue);
-    /* background-color: #133367; */
-    height: 60px;
-    margin-left: 0px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 16px;
-    padding-left: 3%;
-    padding-right: 3%
+.website-link {
+    color: var(--gold);
+    text-decoration: none;
+    font-size: medium;
 }
+
+.website-link:hover {
+    color: var(--cream);
+}
+
 
 .insert {
     margin-top: 50px;
