@@ -16,7 +16,7 @@ body {
 p {
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: medium;
+    font-size: large;
 
 }
 
@@ -76,7 +76,7 @@ p {
 
 .regText {
     color: var(--gold);
-    font-size: medium;
+    font-size: large;
 }
 
 .nameText {
@@ -135,13 +135,13 @@ hr {
 .rsvpLink {
     color: var(--dark-blue);
     text-decoration: none;
-    font-size: medium;
+    font-size: large;
 }
 
 .website-link {
     color: var(--gold);
     text-decoration: none;
-    font-size: medium;
+    font-size: large;
 }
 
 .website-link:hover {
