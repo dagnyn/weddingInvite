@@ -1,8 +1,12 @@
 :root {
     --dark-blue: #0a2444;
     --gold: #c7b36e;
+    /* --gold: #fafdff; */
     --medium-blue: #0d3e68;
     --cream: #f9f6e7;
+    /* --cream: #fafdff; */
+    --silver: #C0C0C0;
+    /* --silver:#eeeeef; */
 }
 
 body {
@@ -59,12 +63,14 @@ p {
 .parent-line {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center;
     /* max-width: 500px; */
 }
 
 .parent-box {
-    width: 250px;
+    /* width: 250px; */
+    min-width: 170px;
 }
 
 .noce-box {
@@ -126,6 +132,7 @@ hr {
     /* border-radius: 4px; */
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid var(--gold);
+    margin-top: 10px;
 }
 
 .rsvpButton:hover {
@@ -145,7 +152,7 @@ hr {
 }
 
 .website-link:hover {
-    color: var(--cream);
+    color: var(--silver);
 }
 
 
