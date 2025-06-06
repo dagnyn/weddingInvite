@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Party</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="navHeader">
+    <a class="monogram" href="index.html">
+        <img src="initials4.png" style="width: 100%;">
+    </a>
+  </div>
+
+    <div class="main">
+    <div class="container">
+         <p class="regText" style="font-size: xx-large; margin-bottom: 0px;">FIND YOUR PARTY</p>
+         <div class="footer" style="margin-top: 0px;">
+          <img class="flower" src="flower2_blue.png" style="width: 10%;">
+        </div>
+
+        <!-- <hr> -->
+         <div class="vertSpacer"></div>
+        
+        <p class="regText">Please enter your email address</p>
+
+        <!-- <div class="vertSpacer"></div> -->
+
+        <div class="search">
+            <form autocomplete="off">
+            <div class="autocomplete">
+                <input type="text" id="email" class="email" name="name"><br>
+            </div>
+        </form>
+
+          <button class="enterButton">
+            <i class="fa fa-search" id="searchBtn"></i>
+          </button>
+
+        </div>
+
+        <div class="vertSpacer"></div>
+
+        <p class="regText" id="errorMsg"></p>
+
+        <div class="vertSpacer"></div>
+
+        <p class="partyMsg" id="party"></p>
+        <hr id="line" style="display: none;">
+        <ul class="partyGuests" id="partyGuests"> </ul>
+
+        <div class="vertSpacer"></div>
+        <div class="vertSpacer"></div>
+
+        
+    </div>
+    </div>
+
+    <script src="./party.js"></script>
+</body>
+
+</html>
