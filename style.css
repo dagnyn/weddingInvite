@@ -299,7 +299,7 @@ hr {
 
 .off-screen-menu.active {
     right: 0;
-    z-index: 99999;
+    z-index: 99998;
 }
 
 
@@ -330,6 +330,8 @@ hr {
     top: 50%;
     transform: translate(-50%, -50%);
     transition: .3s ease;
+
+    z-index: 99999;
 }
 .ham-menu span:nth-child(1) {
     top: 25%;

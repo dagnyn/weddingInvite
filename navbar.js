@@ -3,7 +3,7 @@ window.addEventListener('resize', responsive);
 
 function responsive() {
     const width = window.innerWidth;
-    const thresh = 700;
+    const thresh = 1200;
     
     if (width < thresh) {
         document.getElementsByClassName("navHeader")[0].style.display = "none";
