@@ -466,17 +466,25 @@ hr {
   .enterButton {
     width: 50x;
     height: 100%;
-    background-color:var(--gold);
+    background-color:var(--dark-blue);
     border: 1px;
     /* border-radius: 4px; */
     font-family: 'Times New Roman', Times, serif;
-    border: 2px solid var(--gold);
+    border: 2px solid var(--dark-blue);
     align-items: center;
     justify-content: center;
 }
 
-.enterButton:hover {
+/* .enterButton:hover {
     background-color: var(--cream);
+} */
+
+#searchBtn {
+    color: var(--gold);
+}
+
+#searchBtn:hover {
+    color: var(--cream);
 }
 
 
