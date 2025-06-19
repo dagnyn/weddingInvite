@@ -4,6 +4,7 @@ window.addEventListener('resize', responsive);
 function responsive() {
     const width = window.innerWidth;
     const thresh = 1200;
+    const ceremonyThresh = 500;
     
     if (width < thresh) {
         document.getElementsByClassName("navHeader")[0].style.display = "none";
@@ -24,4 +25,26 @@ function responsive() {
     
         }
     }
+
+    if (document.getElementById("church")) {
+        console.log(width)
+        if (width < ceremonyThresh) {
+            // Change the church text
+            document.getElementById("church").style.display = "none";
+            document.getElementById("church-stacked").style.display = "block";
+
+            // Change the dresscode text
+            document.getElementById("church-attire").style.display = "none";
+            document.getElementById("church-attire-stacked").style.display = "block";
+        }
+
+        else {
+            document.getElementById("church").style.display = "block";
+            document.getElementById("church-stacked").style.display = "none";
+
+            document.getElementById("church-attire").style.display = "block";
+            document.getElementById("church-attire-stacked").style.display = "none";
+        }
+    }
+    
 }
