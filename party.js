@@ -117,7 +117,7 @@ function searchChart() {
 
   let email = document.getElementById('email').value;
     console.log(email);
-
+  email = email.toLowerCase();
 //   clearInfo();
 
   // Checking if a key exists

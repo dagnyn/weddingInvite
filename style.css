@@ -177,7 +177,7 @@ hr {
 
 .website-link {
     color: var(--gold);
-    text-decoration: none;
+    text-decoration: underline;
     font-size: large;
 }
 
