@@ -265,6 +265,10 @@ hr {
     width: 120px;
 }
 
+.partyNum {
+    color: var(--gold)
+}
+
 .vline {
     height: 50px;
     background-color: var(--dark-blue);
