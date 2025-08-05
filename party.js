@@ -296,6 +296,7 @@ parties.set("Shah Family 4", ["Sanjay Shah, Parul Shah, Shah Family, Shah Family
 
 
 // =================== CALLBACKS =========================
+var infoShown = false;
 
 function clearInfo() {
 
@@ -315,6 +316,8 @@ function clearInfo() {
 
   document.getElementById('errorMsg').style.display = "none";
   document.getElementById('partyMsg').style.display = "none";
+
+  infoShown = false;
 }
 
 function correctCapitalization(name){
@@ -343,6 +346,8 @@ function searchChart() {
 
   // Checking if a key exists
   if (parties.has(name)) {
+
+    infoShown = true;
 
     // Clear error message
     document.getElementById('errorMsg').style.display = "none";
@@ -419,7 +424,11 @@ enterButton.addEventListener("click", searchChart);
 
 const searchBar = document.getElementById("name");
 searchBar.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
+  console.log(document.getElementById('partyMsg').style.display)
+    // if (document.getElementById('partyMsg').style.display == "block") {
+    //   console.log("Do nothing")
+    // }
+    if (event.key === "Enter" && !infoShown) {
         event.preventDefault();
         searchChart();
     }
