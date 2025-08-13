@@ -44,7 +44,7 @@ parties.set("Hemal Shah", ["Hemal Shah, Alka Shah, Shah Family, Shah Family, Dev
 parties.set("Alka Shah", ["Hemal Shah, Alka Shah, Shah Family, Shah Family, Dev Shah & Sachi Shah"]);
 parties.set("Dhanpal Shah", ["Hemal Shah, Alka Shah, Shah Family, Shah Family, Dev Shah & Sachi Shah"]);
 
-parties.set("Ojes Shah", ["Ojes & Archana"]);
+parties.set("Ojash Shah", ["Ojes & Archana"]);
 parties.set("Archana Shah", ["Ojes & Archana"]);
 parties.set("Suvarna Shah", ["Ojes & Archana", "Hemal Shah, Alka Shah, Shah Family, Shah Family, Dev Shah & Sachi Shah"]);
 
