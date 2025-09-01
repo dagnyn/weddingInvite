@@ -168,8 +168,8 @@ parties.set("Harper Grams", ["Grams Family"]);
 parties.set("Logan Grams", ["Grams Family"]);
 parties.set("Larry Lantgios", ["Larry Lantgios", "Larry & Justine Lantgios"]);
 parties.set("Justine Lantgios", ["Larry & Justine Lantgios"]);
-parties.set("Mark Woerishoffer", ["Mark & Virginia Woerishoffer"]);
-parties.set("Virginia Woerishoffer", ["Mark & Virginia Woerishoffer"]);
+parties.set("Mark Woerishofer", ["Mark & Virginia Woerishoffer"]);
+parties.set("Virginia Woerishofer", ["Mark & Virginia Woerishoffer"]);
 parties.set("Lucas Califano", ["Lucas Califano & Abigail Yazdia"]);
 parties.set("Abigail Yazdia", ["Lucas Califano & Abigail Yazdia"]);
 parties.set("Ajay Shah", ["Ajay Shah, Kalpana Shah, Pinky Shah"]);
@@ -302,8 +302,10 @@ parties.set("Shah Family 3", ["Sanjay Shah, Parul Shah, Shah Family, Shah Family
 parties.set("Shah Family 4", ["Sanjay Shah, Parul Shah, Shah Family, Shah Family, Shah Family & Shah Family"]);
 
 
-
-
+parties.set("Megan Mahan", ["Mahans"]);
+parties.set("Megan's Guest", ["Mahans"]);
+parties.set("Gina Jasiek", ["Jasieks"]);
+parties.set("Gina's Guest", ["Jasieks"]);
 
 
 // =================== CALLBACKS =========================
