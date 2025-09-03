@@ -6,6 +6,7 @@ parties.set("Sam Jenkins", ["Jenkins Family"]);
 parties.set("Nitin Shah", ["Nitin & Tripal Shah"]);
 parties.set("Tripal Shah", ["Nitin & Tripal Shah"]);
 parties.set("Rowan Muhl", ["Rowan Muhl"]);
+parties.set("Rowan's Guest", ["Rowan Muhl"]);
 parties.set("Minesh Zaveri", ["Zaveri Family"]);
 parties.set("Rachana Zaveri", ["Zaveri Family"]);
 parties.set("Riya Zaveri", ["Zaveri Family"]);
@@ -199,6 +200,7 @@ parties.set("Choski Family 1", ["Dhaval Choski, Mansi Choski, Choski Family & Ch
 parties.set("Choski Family 2", ["Dhaval Choski, Mansi Choski, Choski Family & Choski Family"]);
 parties.set("Shaan Chudgar", ["Shaan Chudgar"]);
 parties.set("Lauren Sonnier", ["Lauren Sonnier"]);
+parties.set("James Clark", ["Lauren Sonnier"]);
 parties.set("Jaymin Kothari", ["Jaymin Kothari, Paloma Kothari, Surekha Kothari, Kothari Family & Kothari Family"]);
 parties.set("Paloma Kothari", ["Jaymin Kothari, Paloma Kothari, Surekha Kothari, Kothari Family & Kothari Family"]);
 parties.set("Surekha Kothari", ["Jaymin Kothari, Paloma Kothari, Surekha Kothari, Kothari Family & Kothari Family"]);
