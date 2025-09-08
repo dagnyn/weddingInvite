@@ -135,7 +135,7 @@ parties.set("Arti Shah", ["Sandeep Shah, Kashmira Shah, Arti Shah, Akash Shah, S
 parties.set("Akash Shah", ["Sandeep Shah, Kashmira Shah, Arti Shah, Akash Shah, Shah Family & Shah Family"]);
 parties.set("Sanjay Kumar", ["Sanjay Kumar"]);
 parties.set("Tobin Bossola", ["Tobin & Rachel Bossola"]);
-parties.set("Rachel Bossola", ["Tobin & Rachel Bossola"]);
+parties.set("Lily Bossola", ["Tobin & Rachel Bossola"]);
 parties.set("Arnik Shah", ["Arnik Shah, Bhavini Shah, Minaxi Shah, Shah Family & Shah Family"]);
 parties.set("Bhavini Shah", ["Arnik Shah, Bhavini Shah, Minaxi Shah, Shah Family & Shah Family"]);
 parties.set("Minaxi Shah", ["Arnik Shah, Bhavini Shah, Minaxi Shah, Shah Family & Shah Family"]);
