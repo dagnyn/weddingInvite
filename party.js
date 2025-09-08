@@ -309,6 +309,15 @@ parties.set("Megan's Guest", ["Mahans"]);
 parties.set("Gina Jasiek", ["Jasieks"]);
 parties.set("Gina's Guest", ["Jasieks"]);
 
+parties.set("Afshin Karjoo", ["Karjoos"]);
+parties.set("Michele Gero", ["Karjoos"]);
+parties.set("Lila Karjoo", ["Karjoos"]);
+parties.set("Anahita Karjoo", ["Karjoos"]);
+parties.set("Arman Karjoo", ["Karjoos"]);
+
+
+
+
 
 // =================== CALLBACKS =========================
 var infoShown = false;
