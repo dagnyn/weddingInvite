@@ -315,6 +315,9 @@ parties.set("Lila Karjoo", ["Karjoos"]);
 parties.set("Anahita Karjoo", ["Karjoos"]);
 parties.set("Arman Karjoo", ["Karjoos"]);
 
+parties.set("Bela Thakkar", ["Thakkars"]);
+parties.set("Jashvant Thakkar", ["Thakkars"]);
+
 
 
 
