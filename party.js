@@ -11,7 +11,7 @@ parties.set("Minesh Zaveri", ["Zaveri Family"]);
 parties.set("Rachana Zaveri", ["Zaveri Family"]);
 parties.set("Riya Zaveri", ["Zaveri Family"]);
 parties.set("Karina Zaveri", ["Zaveri Family"]);
-parties.set("Dylan Zaveri", ["Zaveri Family"]);
+parties.set("Dilan Zaveri", ["Zaveri Family"]);
 parties.set("Young Che", ["Che Family"]);
 parties.set("Jane Che", ["Che Family"]);
 parties.set("Sarah Che", ["Che Family"]);
